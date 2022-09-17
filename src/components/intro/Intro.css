@@ -39,10 +39,10 @@
 .i-icons{
     margin-top: 2rem;
     display: flex;
-    gap:0rem;
+
 }
 .i-icons> a{
-    padding: 30px;
+    padding:0 30px 0 14px;
     transform: scale(2);
     color: #242D49;
 }

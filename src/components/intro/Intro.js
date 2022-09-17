@@ -4,12 +4,10 @@ import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
 import vector1 from './../../assets/img/Vector1.png';
 import vector2 from './../../assets/img/Vector2.png';
 import boy from './../../assets/img/01.png';
-import thumbup from './../../assets/img/thumbup.png';
-import Crown from './../../assets/img/crown.png';
-import glasses from './../../assets/img/glasses.png';
 
 
 function Intro() {
@@ -27,6 +25,7 @@ function Intro() {
                 <a href="https://www.linkedin.com/in/md-makbul-hosen-5620b1158/" target="_blank"><FaLinkedin/></a>
                 <a href="https://www.instagram.com/mhakash77/" target="_blank"><FaInstagramSquare/></a>
                 <a href="https://www.facebook.com/mhakash5000" target="_blank"><FaFacebook/></a>
+                <a href="https://www.facebook.com/mhakash5000" target="_blank"><FaTwitterSquare/></a>
 
              </div>
         </div>
@@ -34,9 +33,6 @@ function Intro() {
            <img src={vector1} alt="" />
            <img src={vector2} alt="" />
            <img src={boy} alt="" />
-           <img src={thumbup} alt="" />
-           <img src={Crown} alt="" />
-           <img src={glasses} alt="" />
         </div>
     </div>
   )

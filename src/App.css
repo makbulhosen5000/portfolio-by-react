@@ -27,7 +27,7 @@
     padding: 11px 26px 11px 26px;
   }
   
-  .button:hover {
+.button:hover {
     background: white;
     cursor: pointer;
     border: 1px solid var(--orange);
