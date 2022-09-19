@@ -1,7 +1,7 @@
 import React from 'react'
 import './Services.css';
-import headEmoji from './../assets/img/heartemoji.png';
-import Resume from './../assets/resume/cv.pdf'
+import headEmoji from './../../assets/img/heartemoji.png';
+import Resume from './../../assets/resume/cv.pdf';
 import Card from '../Card/Card';
 
 
@@ -26,7 +26,7 @@ function Services() {
           {/* right side */}
           <div className='cards'>
                {/* card 1st */}
-              <div style={{ top:"1rem",left:"8rem" }}>
+              <div style={{ top:"0.5rem",left:"8rem" }}>
                   <Card 
                   emoji = {headEmoji}
                   heading = {'WEB DESIGN SKILLS'}
@@ -45,7 +45,7 @@ function Services() {
               <div style={{ top:"20rem",left:"8rem" }}>
                   <Card 
                   emoji = {headEmoji}
-                  heading = {'WEB DEV SKILLS'}
+                  heading = {'WEB DEVELOPMENT SKILLS'}
                   details = {"LARAVEL, REACT, MYSQL, JSON,AJAX"}
                   />
               </div>
