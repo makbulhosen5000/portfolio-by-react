@@ -6,6 +6,8 @@ import Experiences from './components/Experiences/Experiences';
 import Services from './components/Services/Services';
 import Works from './components/Works/Works';
 import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Experiences/>
           <Works />
           <Portfolio/>
+          <Contact/>
+          <Footer/>
     </div>
   );
 }
