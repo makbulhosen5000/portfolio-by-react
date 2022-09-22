@@ -1,28 +1,28 @@
 import React from 'react'
+import logo from './../../assets/img/logo.png';
 import './Navbar.css';
 
 function Navbar() {
   return (
     <div className="n-wrapper">
-        <div className="n-left">
-            <div className="n-name">Md Makbul Hosen</div>
-            <span>toggle</span>
-        </div>
-        <div className="n-right">
+        {/* <div className="n-left">
+            <div>
+              <img src={logo} alt="" className="n-logo" />
+            </div>
+        </div> */}
+       
              <div className="n-list">
-                <ul style={{ listStyleType:'none' }}>
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li>Experiences</li>
-                    <li>Portfolio</li>
-                    <li>Testimonials</li>
+                <ul >
+                    <li className='mylist'><a class="active" href="#df">Home</a></li>
+                    <li className='mylist'><a href="#nes">Services</a></li>
+                    <li className='mylist'><a href="#g">Experiences</a></li>
+                    <li className='mylist'><a href="#g">Portfolio</a></li>
+                    <li className='mylist'><a href="#abo">Contact</a></li>
                 </ul>
-              
+
              </div>
-             <button className='button n-button'>
-                Contact
-             </button>
-        </div>
+   
+       
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './App.css';
 import Intro from './components/intro/Intro';
 import Navbar from './components/Navbar/Navbar';
@@ -9,7 +9,9 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './Contact/Contact';
 import Footer from './components/Footer/Footer';
 
+
 function App() {
+
   return (
     <div className='App'>
           <Navbar />

@@ -17,9 +17,9 @@ function Intro() {
             <div className='i-name'>
                 <span>Hey! I'm</span>
                 <span>Md.Makbul Hosen</span>
-                <span>Full-Stack Developer</span>
+                <span>Full-Stack Web Developer</span>
             </div>
-             <button className='button i-button'>Hire Me</button>
+             <button className='button s-button'>Download Resume</button>
              <div className='i-icons'>
                 <a href="https://github.com/mhakash5000" target="_blank"><FaGithub/></a>
                 <a href="https://www.linkedin.com/in/md-makbul-hosen-5620b1158/" target="_blank"><FaLinkedin/></a>

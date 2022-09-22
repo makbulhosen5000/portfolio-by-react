@@ -23,7 +23,7 @@ function portfolio() {
     >
       <SwiperSlide>
         {/* image size 1214*614 */}
-        <a href='https://project01.snadvanceltd.com/' target="_blank"><img src={masjid} alt="" /></a>
+        <a href='https://project01.snadvanceltd.com/' target="_blank"><img src={masjid} alt="" /> <span></span> </a>
       </SwiperSlide>
       <SwiperSlide>
       <a href='http://masjidalummah.com.au/' target="_blank"><img src={snadvance} alt="" /></a>

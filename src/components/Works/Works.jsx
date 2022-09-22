@@ -16,14 +16,16 @@ function Works() {
          <div className='awesome'>
            <span>Works For All These</span>
            <span>Brands & Clients</span>
-           <span>I have successfully designed, developed, and delivered a multitude of websites
+           <span>I am a passionate programmer.I would love to develop your application.
             <br/> 
-            and web applications with complex front and back ends; from typical  HTML/             
+            I have experienced in developing web applications including frontend end backend.             
             <br/>
-           CSS/Bootstrap/PHP/Laravel/JavaScript/ReactJs/Rest API/MYSQL Server.
+           And highly interested to work in local/International job market.
+          <br/>
+            And also want to work in freelancing market place.
             <br/>
             I would love to help you achieve your objectives; simple or complex!</span>
-            <a href="s" download><button className='button s-button'>Hire Me</button></a>
+            <a href="s" download><button className='button s-button'>Download Resume</button></a>
            <div className='blur s-blur1' style={{ background:"#ABF1FF94" }}></div>
          </div>
          <div className='w-right'>
