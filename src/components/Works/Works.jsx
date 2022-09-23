@@ -5,7 +5,7 @@ import Fiverr from './../../assets/img/fiverr.png';
 import Amazon from './../../assets/img/amazon.png';
 import Shopify from './../../assets/img/Shopify.png';
 import Facebook from './../../assets/img/Facebook.png';
-
+// import {motion} from 'framer-motion';
 
 
 
@@ -18,13 +18,13 @@ function Works() {
            <span>Brands & Clients</span>
            <span>I am a passionate programmer.I would love to develop your application.
             <br/> 
-            I have experienced in developing web applications including frontend end backend.             
+            I have experienced in developing web applications including frontend & backend.             
             <br/>
            And highly interested to work in local/International job market.
           <br/>
             And also want to work in freelancing market place.
             <br/>
-            I would love to help you achieve your objectives; simple or complex!</span>
+            I would love to help you, achieve your simple & complex objectives.</span>
             <a href="s" download><button className='button s-button'>Download Resume</button></a>
            <div className='blur s-blur1' style={{ background:"#ABF1FF94" }}></div>
          </div>

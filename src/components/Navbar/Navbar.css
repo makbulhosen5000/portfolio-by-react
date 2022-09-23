@@ -23,3 +23,8 @@
  .active {
     background-color: #04AA6D;
   }
+  @media screen and (max-width: 480px){
+    .s-button{
+      display: none;
+    }
+  }

@@ -11,14 +11,16 @@ import boy from './../../assets/img/01.png';
 
 
 function Intro() {
+
   return (
     <div className='intro'>
         <div className='i-left'>
-            <div className='i-name'>
-                <span>Hey! I'm</span>
+            <iv className='i-name'>
+
+                <span>Hi! I am</span>
                 <span>Md.Makbul Hosen</span>
                 <span>Full-Stack Web Developer</span>
-            </div>
+            </iv>
              <button className='button s-button'>Download Resume</button>
              <div className='i-icons'>
                 <a href="https://github.com/mhakash5000" target="_blank"><FaGithub/></a>

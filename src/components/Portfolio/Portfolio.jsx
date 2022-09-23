@@ -9,7 +9,7 @@ import 'swiper/css'
 
 function portfolio() {
   return (
-    <div className="portfolio" id="portfolio">
+    <div className="portfolio" id="Portfolio">
     {/* heading */}
     <span >Recent Projects</span>
     <span>Portfolio</span>

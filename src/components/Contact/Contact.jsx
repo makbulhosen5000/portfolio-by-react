@@ -21,13 +21,13 @@ function Contact() {
       e.target.reset();
   };
   return (
-    <div className="contact-form" id="contact">
+    <div className="contact-form" id="Contact">
       {/* left side copy and paste from work section */}
       <div className="w-left">
-        <div className="awesome">
+        <div className="awesome" style={{ paddingTop:"2rem" }}>
           {/* darkMode */}
           <span>Get in Touch</span>
-          <span>Contact me</span>
+          <span>GET CATCH ME FROM HERE. RIGHT NOW</span>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
