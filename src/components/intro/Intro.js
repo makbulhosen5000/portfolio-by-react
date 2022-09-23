@@ -8,6 +8,7 @@ import { FaTwitterSquare } from "react-icons/fa";
 import vector1 from './../../assets/img/Vector1.png';
 import vector2 from './../../assets/img/Vector2.png';
 import boy from './../../assets/img/01.png';
+import Resume from './../../assets/resume/cv.pdf';
 
 
 function Intro() {
@@ -21,7 +22,7 @@ function Intro() {
                 <span>Md.Makbul Hosen</span>
                 <span>Full-Stack Web Developer</span>
             </iv>
-             <button className='button s-button'>Download Resume</button>
+            <a href={Resume} download><button className='button s-button'>Download Resume</button></a>
              <div className='i-icons'>
                 <a href="https://github.com/mhakash5000" target="_blank"><FaGithub/></a>
                 <a href="https://www.linkedin.com/in/md-makbul-hosen-5620b1158/" target="_blank"><FaLinkedin/></a>
